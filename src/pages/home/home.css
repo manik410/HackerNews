@@ -1,0 +1,54 @@
+#search-fs {
+    position: relative;
+    overflow: hidden;
+    margin: 2px auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+#search-fs .fa {
+    position: absolute;
+    left: 6%;
+    top: 40%;
+    color: #555;
+}
+.cards{
+    width: 90%;
+    margin: 20px auto;
+}
+#search-fs input#search-text {
+    border: 0;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    padding: 20px 15px 20px 60px;
+    margin: 12px;
+    border-radius: 70px;
+    width: 580px;
+    font-size: 16px;
+    max-width: 100%;
+    outline: none;
+}
+
+#search-fs button {
+    background: #fbdc03;
+    border: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin: 20px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+#search-fs button:hover {
+    background: #0774ff;
+    color: #fff;
+    transition: all .4s
+}
+
+
